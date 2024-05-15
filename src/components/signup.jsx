@@ -66,7 +66,7 @@ const signup = (props) => {
   {/* Sign */}
 
   <div className='flex items-center gap-6 flex-col lg:flex-row w-[90%] px-10 mx-[2%] '>
-   <div className='w-[50%] flex flex-col items-center'>
+   <div className='lg:flex hidden w-[50%] flex-col items-center'>
      <h1 className='text-white text-[1.7rem] font-bold text-center md:text-[2.2rem] lg:text-left lg:text-[2.3rem]'>Welcome To <span className='text-[4rem] text-orange-600'>My College Maps</span></h1>
      <button className=' lg:items-center border-2 border-orange-500  hover:bg-orange-500 p-2 mt-10 w-full rounded-[2rem] hidden lg:flex'>
        {/* <img className='w-[15px] mr-0' src={} alt="" /> */}
