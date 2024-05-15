@@ -165,7 +165,7 @@ const MapComponent = () => {
   return (
     <>
     <div id="map" className='' />
-    <div className='absolute top-[80%] left-[75%]'>
+    <div className='absolute top-[90%] lg:top-[80%] left-[30%] md:left-[50%] lg:left-[75%]'>
     <div className='flex justify-between gap-10 px-10 py-2 items-center z-99'>
 
     <div className=' lg:w-[6.5rem] md:w-[7.5rem] w-[5rem] cursor-pointer  p-0'>
