@@ -48,16 +48,16 @@ const Home = (props) => {
   
   {/* Sign */}
 
-  <div className='flex items-center gap-6 flex-col lg:flex-row w-[90%] px-10 mx-[2%] '>
-   <div className='w-[50%] flex flex-col items-center'>
-     <h1 className='text-white text-[1.7rem] font-bold text-center md:text-[2.2rem] lg:text-left lg:text-[2.3rem]'>Welcome To <span className='text-[4rem] text-orange-600'>My College Maps</span></h1>
+  <div className='flex  items-center gap-6 flex-col lg:flex-row w-[90%] px-10 mx-[2%] '>
+   <div className='lg:flex hidden lg:w-[50%]  flex-col items-center'>
+     <h1 className=' text-white text-[1.7rem] font-bold text-center md:text-[2.2rem] lg:text-left lg:text-[2.3rem]'>Welcome To <span className='text-[4rem] text-orange-600'>My College Maps</span></h1>
      <button className=' lg:items-center border-2 border-orange-500  hover:bg-orange-500 p-2 mt-10 w-full rounded-[2rem] hidden lg:flex'>
        {/* <img className='w-[15px] mr-0' src={} alt="" /> */}
        <p className='text-center mx-auto text-white font-bold'>Join Now</p> 
     </button>
     </div>
 
-    <div className='lg:w-[35%] md:w-[60%] w-[92%] mx-auto mt-10 p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-md'>
+    <div className='w-[100%] lg:w-[35%] md:w-[100%]  mx-auto mt-10 p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-md'>
         {/* card-header */}
 
         {/* card-content */}
@@ -101,5 +101,6 @@ const Home = (props) => {
 }
 
 export default Home
+
 
 
